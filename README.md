@@ -1,2 +1,0 @@
-# TiboLoete
-Personal website
