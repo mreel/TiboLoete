@@ -1,5 +1,6 @@
 # Home
 ## Projects
+- [Keebio Sinc](sinc_rev1): My first mechanical keyboard. (post WIP)
 - [Cobra Cadence](projects/cobra_cadence.md): My first fully custom keyboard. It's a 34-key handwire build.
 
 ## About
