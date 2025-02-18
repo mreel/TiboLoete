@@ -29,6 +29,7 @@ The case and plates are 3D-printed and the keyboard uses a [sandwich mount](http
 
 ## Components
 ### BOM
+
 | Part                              | Quantity |
 | --------------------------------- | -------- |
 | Diode                             | 36       |
