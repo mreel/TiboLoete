@@ -27,7 +27,22 @@ The case and plates are 3D-printed and the keyboard uses a [sandwich mount](http
 > [!TIP]
 > All the files for this project can be found in this repo
 
-
+## Components
+### BOM
+| Part                              | Quantity |
+| --------------------------------- | -------- |
+| Diode                             | 36       |
+| MX switch (Durock T1)             | 36       |
+| Seeed Studio XIAO nRF52840        | 2        |
+| M2 threaded inserts               | 48       |
+| M2 Nut                            | 2        |
+| M2 Screw                          | 26       |
+| Keycaps                           | 36       |
+| Wire†                             | ~3m?     |
+| 3D-printed plate (L+R)            | 1        |
+| 3D-printed case (L+R, top+bottom) | 1        |
+<!-- to do: add lengths to threaded inserts and screws-->
+† I used the conductors from some ethernet cable I had laying around, worked great
 
 <!-- 
 - reddit post: summary and pictures
