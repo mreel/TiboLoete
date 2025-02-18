@@ -47,8 +47,8 @@ The case and plates are 3D-printed and the keyboard uses a [sandwich mount](http
 † I used the conductors from some ethernet cable I had laying around, worked great
 
 ### Component considerations
-I was on a very tight budget for this build, because of this I used parts I had laying around as much as possible^[My other, used-to-be 75%+10 macro keys board, the keebio sinc, now is more like a 55% from removing 36 switches]. I bought some stuff I didn't end up needing, in the end, the only things I bought new and used for this project were the microcontrollers and diodes.  
-The controller was chosen for it's compactness, price, and most importantly, it's compatibility with both KMK and ZMK. Originally this was supposed to be a wireless build, but I realized a non wireless build was difficult enough with my current skillset. At the same time, I wanted to give KMK a try, since I'm pretty comfortable in python, and I never got comfortable using `c` for qmk^[I didn't want to give up compatability with ZMK in case I didn't like KMK, or if I wanted to convert it to a wireless board later].
+I was on a very tight budget for this build, because of this I used parts I had laying around as much as possible[^1]. I bought some stuff I didn't end up needing, in the end, the only things I bought new and used for this project were the microcontrollers and diodes.  
+The controller was chosen for it's compactness, price, and most importantly, it's compatibility with both KMK and ZMK. Originally this was supposed to be a wireless build, but I realized a non wireless build was difficult enough with my current skillset. At the same time, I wanted to give KMK a try, since I'm pretty comfortable in python, and I never got comfortable using `c` for qmk[^2].
 
 <!-- 
 - reddit post: summary and pictures
@@ -62,3 +62,6 @@ The controller was chosen for it's compactness, price, and most importantly, it'
 - credit & attribution
 - all project files
 -->
+
+[^1]: My other, used-to-be 75%+10 macro keys board, the keebio sinc, now is more like a 55% from removing 36 switches
+[^2]: I didn't want to give up compatability with ZMK in case I didn't like KMK, or if I wanted to convert it to a wireless board later
