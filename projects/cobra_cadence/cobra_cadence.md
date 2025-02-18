@@ -24,7 +24,7 @@ The logo is based on the key layout, the snake's head is the 'mash' key, with th
 
 The case and plates are 3D-printed and the keyboard uses a [sandwich mount](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7). The plate features a recepticle for the microcontroller to fit into. The keyboard is completely symmetrical and both halves are connected with a hardwired cable.
 
-> [!TIP]-
+> [!TIP]
 > All the files for this project can be found in this repo
 
 
