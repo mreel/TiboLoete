@@ -1,4 +1,6 @@
 # Cobra Cadence build guide
+<span style="font-size:18pt; color:red;">|||--This page is still under construction--|||</span>
+
 > [!CAUTION]
 > I'm writing this build guide, as well as the rest of this write-up while I'm away and don't have access to the keyboard. I might make some small mistakes, but these should be minimal. More likely, since I can't take new pictures, I'm relying on old pictures and some renders I can make while on the go.  
 > It's not ideal but the best I can do right now. Feel free to open an issue on the [repo of this webiste](https://github.com/mreel/TiboLoete), and I'll do my best to fix it.
