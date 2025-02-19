@@ -9,7 +9,18 @@ The Cobra Cadence is a 36-key, handwired split keyboard with a unique layout.
 - 2 'mash' keys
 - KMK firmware
 
-{pictures}
+<table align="center">
+  <tr>
+    <td colspan="2" align="center"><img src="media/cc_showcase1.jpg" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="media/cc_showcase2.jpg" width="100%"></td>
+    <td><img src="media/cc_showcase3.jpg" width="100%"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="media/cc_showcase4.jpg" width="100%"></td>
+  </tr>
+</table>
 
 ## Design
 ### Layout
@@ -74,7 +85,8 @@ In other words, feel free to use the firmware as a starting point but don't expe
 
 ## License
 <p xmlns:cc="http://creativecommons.org/ns#" >The hardware is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
-The software is licences under the [MIT licence]  <!-- TODO!--> 
+The software is licences under the [MIT licence]  <!-- TODO!-->  
+
 In layman’s terms: You can use and modify the hardware for personal projects, but you can’t sell it. The software is free for anyone to use, modify, and even sell.
 
 
