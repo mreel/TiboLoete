@@ -82,8 +82,8 @@ Because of these reasons I've decided to transition to ZMK, this won't be done a
 In other words, feel free to use the firmware as a starting point but don't expect it to be nice and frequently updated. Just drop the `kb.py` and `main.py` in the root folder of the drives, together with the `kmk` folder of the KMK firmware. For more information see [the docs](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md).
 
 ## Further reading
-- [Build one yourself!](build_guide)  
-- [The story](story)
+- [Build one yourself!](cc_build_guide.md)  
+- [The story](cc_story.md)
 - Firmware \[link required]
 
 ## License
