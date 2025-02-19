@@ -6,7 +6,7 @@ The Cobra Cadence is a 36-key, handwired split keyboard with a unique layout.
 - Slightly splayed columnar-staggered layout
 - 4×3+2 main cluster
 - 2×3 thumb keys
-- 2 'mash' keys
+- 2 _mash!_ keys
 - KMK firmware
 
 <table align="center">
@@ -30,7 +30,7 @@ On the pinky, I decided to go for an oddly placed upper row as I have very short
 
 ### Build
 I went with a more organic shape for case for a few reasons. For one, with this layout, a tighter, more common angular design simply didn't look good. I also felt that ergonomic keyboards in general are meant to line up with our biology more closely, to be more organic. The design should reflect that.  
-The logo is based on the key layout, the snake's head is the 'mash' key, with the tail as the thumb cluster.
+The logo is based on the key layout, the snake's head is the _mash!_ key, with the tail as the thumb cluster.
 {logo->key graphic}
 
 The case and plates are 3D-printed and the keyboard uses a [sandwich mount](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7). The plate features a recepticle for the microcontroller to fit into. The keyboard is completely symmetrical and both halves are connected with a hardwired cable.
@@ -41,25 +41,24 @@ The case and plates are 3D-printed and the keyboard uses a [sandwich mount](http
 ## Components
 ### BOM
 
-| Part | Quantity |  
-| --- | --- |  
-| Diode | 36 |  
-| MX switch (Durock T1) | 36 |  
-| Seeed Studio XIAO nRF52840 | 2 |  
-| M2 threaded inserts | 48 |  
-| M2 Nut | 2 |  
-| M2 Screw | 26 |  
-| Keycaps | 36 |  
-| Wire† | ~3m? |  
-| 3D-printed plate (L+R) | 1 |  
-| 3D-printed case (L+R, top+bottom) | 1 |  
+| Part                              | Quantity |
+| --------------------------------- | -------- |
+| Diode                             | 36       |
+| MX switch (Durock T1)             | 36       |
+| Seeed Studio XIAO nRF52840        | 2        |
+| M2 threaded inserts               | 48       |
+| M2 Nut                            | 2        |
+| M2 Screw                          | 26       |
+| Keycaps                           | 36       |
+| Wire†                             | ~3m?     |
+| Felt                              | 3×4cm    |
+| 3D-printed plate (L+R)            | 1        |
+| 3D-printed case (L+R, top+bottom) | 1        |
+|                                   |          |
 
 <!-- to do: add lengths to threaded inserts and screws-->
-† I used the conductors from some ethernet cable I had laying around, worked great
-
-### Component considerations
-I was on a very tight budget for this build, because of this I used parts I had laying around as much as possible[^1]. I bought some stuff I didn't end up needing, in the end, the only things I bought new and used for this project were the microcontrollers and diodes.  
-The controller was chosen for it's compactness, price, and most importantly, it's compatibility with both KMK and ZMK. Originally this was supposed to be a wireless build, but I realized a non wireless build was difficult enough with my current skillset. At the same time, I wanted to give KMK a try, since I'm pretty comfortable in python, and I never got comfortable using `c` for qmk[^2].
+† I used the conductors from some ethernet cable I had laying around, worked great  
+†† For the feet, 3mm wide, max length of a single piece is 37mm, totalling about 260mm (~8cm<sup>2</sup>)  
 
 ### Required Tools
 - Soldering equipment
@@ -67,6 +66,10 @@ The controller was chosen for it's compactness, price, and most importantly, it'
 - Screw driver with the appropriate bit depending on your screws
 - \[Recommended] Helping hands
 - \[Recommended] Tweezers
+
+### Component considerations
+I was on a very tight budget for this build, because of this I used parts I had laying around as much as possible[^1]. I bought some stuff I didn't end up needing, in the end, the only things I bought new and used for this project were the microcontrollers and diodes.  
+The controller was chosen for it's compactness, price, and most importantly, it's compatibility with both KMK and ZMK. Originally this was supposed to be a wireless build, but I realized a non wireless build was difficult enough with my current skillset. At the same time, I wanted to give KMK a try, since I'm pretty comfortable in python, and I never got comfortable using `c` for qmk[^2].
 
 ## Firmware
 Right now (as of 02/24), the firmware is written in KMK, I've got basic functionality down, but I'm not happy with it for multiple reasons. The main reason is just my laziness in not properly implementing everything I want[^3], but it also turns out I'm not a huge fan of KMK. I'm not in the business of bashing free and open-source projects, but let me quickly list why it's not for me personally:  
