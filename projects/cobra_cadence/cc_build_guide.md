@@ -42,6 +42,9 @@ Wire the matrix according to the wiring diagram below (todo), remembering to put
 
 The wiring might look a little funky, that's because it is. I wanted to keep the amount of wires to a minimum, which means the _mash!_ keys are -electronically- on the same row as the top of the main cluster, except for the pinky column. It's weird, but can be, and is, fixed in the firmware.  
 
+![Matrix Wiring](media/wiring_matrix.jpg)  
+<sup>It won't look this nice in real life</sup>
+
 ### Connect matrix to controller
 ### Put plate assembly into case
 ### Connect both halves
