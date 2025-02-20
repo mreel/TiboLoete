@@ -45,20 +45,20 @@ The case and plates are 3D-printed and the keyboard uses a [sandwich mount](http
 | --------------------------------- | -------- |
 | Diode                             | 36       |
 | MX switch (Durock T1)             | 36       |
-| Seeed Studio XIAO nRF52840        | 2        |
+| Seeed Studio XIAO nRF52840†       | 2        |
 | M2 threaded inserts               | 48       |
 | M2 Nut                            | 2        |
 | M2 Screw                          | 26       |
 | Keycaps                           | 36       |
-| Wire†                             | ~3m?     |
-| Felt                              | 3×4cm    |
+| Wire††                            | ~3m?     |
+| Felt                              | 3×4cm††† |
 | 3D-printed plate (L+R)            | 1        |
 | 3D-printed case (L+R, top+bottom) | 1        |
-|                                   |          |
 
 <!-- to do: add lengths to threaded inserts and screws-->
-† I used the conductors from some ethernet cable I had laying around, worked great  
-†† For the feet, 3mm wide, max length of a single piece is 37mm, totalling about 260mm (~8cm<sup>2</sup>)  
+† It's probably worth getting the version with the presoldered header pins. I didn't but had a horrible time. The header pins would've made it a lot easier  
+†† I used the conductors from some ethernet cable I had laying around, worked great  
+††† For the feet, 3mm wide, max length of a single piece is 37mm, totalling about 260mm (~8cm<sup>2</sup>)  
 
 ### Required Tools
 - Soldering equipment
