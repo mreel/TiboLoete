@@ -9,6 +9,7 @@ See the needed components [here](cc_main_page.md#Components)!
 
 > [!CAUTION]
 > This is my first handwired board, I made a lot of mistakes and learned a lot. This build guide is supposed to be less of a 'replicate this' and more of a 'learn from this' kind of guide. I'll be giving some commentary on things I did wrong and how to do them right.
+
 ## Step by step
 ### Overview
 1. Get components  
@@ -44,13 +45,13 @@ Wire the matrix according to the wiring diagram below, remembering to put diodes
 
 The wiring might look a little funky, that's because it is. The microcontroller only has 11 GPIO pins, two of which pull double duty as the UART RX and TX pins, leaving only 9 usuable pins for the rows and columns. For this reason the _mash!_ keys are —electronically— on the same row as the top of the main cluster, except for the pinky column. It's weird, but can be —and is— fixed in the firmware.  
 
-![Matrix Wiring](cc_wiring_matrix.jpg)  
+![Matrix Wiring](media/cc_wiring_matrix.jpg)  
 <sup>It won't look this nice in real life</sup>
 
 ### Connect matrix to controller
 This is the more tricky job, as noted before, I didn't get the presoldered header pins, you should, it should be a lot easier.  What I didn't realise keyboard firmware (at least KMK) assumes mirrored/symmetrical wiring, I didn't do that, I wired them so the leftmost and topmost column and row respectively correspond to the lowest number. I do not recommend this, as such I won't be showing a fancy diagram like I did for the matrix wiring.  I do have a pencil sketch from when I was building the board that I'll clean up a little for those who wish to be stubborn or want to use my firmware as is.
 
-![Controller Wiring](cc_controller_wiring.jpg)  
+![Controller Wiring](media/cc_controller_wiring.jpg)  
 
 ### Put plate assembly into case
 It's time to put the assembly into the bottom halves of the case. In the next step it will become very obvious why I won't be connecting two halves of a board in the same way in the future.  
